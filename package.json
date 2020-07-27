@@ -1,0 +1,26 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "A simple node app that recieves POST requests on /test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsanc/simple-node-app.git"
+  },
+  "author": "Johnny Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnsanc/simple-node-app/issues"
+  },
+  "homepage": "https://github.com/johnsanc/simple-node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
